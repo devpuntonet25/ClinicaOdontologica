@@ -1,0 +1,210 @@
+[2024-06-22 12:59:41] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 12:59:41] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 12:59:41] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=2058, firstName='Carlos', lastName='García'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=2, registration=2244, firstName='Martina', lastName='Perez'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=3, registration=3025, firstName='Maria', lastName='Lopera'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:224] Iniciando proceso para obtener todos los odontólogos
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:232] SELECT * FROM DENTIST;
+
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:142] Iniciando el proceso de actualización de un odontólogo
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:162] Se actualizó el odontólogo con ID: 1, y quedó así: {id=1, registration=4568, firstName='Martina', lastName='Gonzales'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:110] Iniciando proceso para obtener un odontólogo por ID
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:122] Se obtuvo de la BD el odontólogo: {id=1, registration=4568, firstName='Martina', lastName='Gonzales'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:110] Iniciando proceso para obtener un odontólogo por ID
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:122] Se obtuvo de la BD el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:184] Iniciando proceso de eliminación de un odontólogo
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:201] Se borró el odontólogo con ID 1
+[2024-06-22 12:59:42] [ INFO ] [DentistDaoH2:110] Iniciando proceso para obtener un odontólogo por ID
+[2024-06-22 13:00:17] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:02:41] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:02:54] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:04:56] [ ERROR] [DentistDaoH2:55] Maven:org.h2.Driver
+[2024-06-22 13:05:34] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:11:20] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:11:48] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:12:47] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:19:47] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=2058, firstName='Carlos', lastName='García'}
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=2, registration=2244, firstName='Martina', lastName='Perez'}
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=3, registration=3025, firstName='Maria', lastName='Lopera'}
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:224] Iniciando proceso para obtener todos los odontólogos
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:232] SELECT * FROM DENTIST;
+
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:142] Iniciando el proceso de actualización de un odontólogo
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:162] Se actualizó el odontólogo con ID: 1, y quedó así: {id=1, registration=4568, firstName='Martina', lastName='Gonzales'}
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:110] Iniciando proceso para obtener un odontólogo por ID
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:122] Se obtuvo de la BD el odontólogo: {id=1, registration=4568, firstName='Martina', lastName='Gonzales'}
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:110] Iniciando proceso para obtener un odontólogo por ID
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:122] Se obtuvo de la BD el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:20:15] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:20:16] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:20:16] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:20:16] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:20:16] [ INFO ] [DentistDaoH2:184] Iniciando proceso de eliminación de un odontólogo
+[2024-06-22 13:20:16] [ INFO ] [DentistDaoH2:201] Se borró el odontólogo con ID 1
+[2024-06-22 13:20:16] [ INFO ] [DentistDaoH2:110] Iniciando proceso para obtener un odontólogo por ID
+[2024-06-22 13:20:40] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:23:34] [ ERROR] [DentistDaoH2:55] org.h2.Driver
+[2024-06-22 13:23:34] [ ERROR] [DentistDaoH2:96] org.h2.Driver
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=2058, firstName='Carlos', lastName='García'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=2, registration=2244, firstName='Martina', lastName='Perez'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=3, registration=3025, firstName='Maria', lastName='Lopera'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:224] Iniciando proceso para obtener todos los odontólogos
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:232] SELECT * FROM DENTIST;
+
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:142] Iniciando el proceso de actualización de un odontólogo
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:162] Se actualizó el odontólogo con ID: 1, y quedó así: {id=1, registration=4568, firstName='Martina', lastName='Gonzales'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:110] Iniciando proceso para obtener un odontólogo por ID
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:122] Se obtuvo de la BD el odontólogo: {id=1, registration=4568, firstName='Martina', lastName='Gonzales'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:110] Iniciando proceso para obtener un odontólogo por ID
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:122] Se obtuvo de la BD el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:51] DROP TABLE IF EXISTS DENTIST;
+CREATE TABLE DENTIST(
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    REGISTRATION INT NOT NULL,
+    FIRSTNAME VARCHAR(120) NOT NULL,
+    LASTNAME VARCHAR(120) NOT NULL
+);
+
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:77] Iniciando el guardado de un odontólogo
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:89] Se registró el odontólogo: {id=1, registration=4568, firstName='Manuela', lastName='Yepes'}
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:184] Iniciando proceso de eliminación de un odontólogo
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:201] Se borró el odontólogo con ID 1
+[2024-06-22 13:23:56] [ INFO ] [DentistDaoH2:110] Iniciando proceso para obtener un odontólogo por ID
